@@ -35,5 +35,7 @@ public class Main {
         } else if (deliveryDistance > 100) {
             System.out.println("Доставка будет занимать больше трёх дней.");
         }
+        // тестирую для pullRequest
     }
 }
+
