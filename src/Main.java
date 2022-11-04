@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
+
         System.out.println("Задание 1.");
         int clientOS = 1;
         if (clientOS == 1) {
@@ -7,6 +8,7 @@ public class Main {
         } else if (clientOS == 0) {
             System.out.println("Установите версию приложения для iOS по ссылке");
         }
+
         System.out.println("Задание 2.");
         int clientDeviceYear = 2015;
         if (clientOS == 1 && clientDeviceYear < 2015) {
@@ -22,8 +24,6 @@ public class Main {
             System.out.println("Установите версию приложения для iOS по ссылке");
         }
 
-
-
         System.out.println("Задание 4.");
         int deliveryDistance = 95;
         if (deliveryDistance < 20) {
@@ -35,6 +35,5 @@ public class Main {
         } else if (deliveryDistance > 100) {
                 System.out.println("Доставка будет занимать больше трёх дней.");
         }
-
     }
 }
