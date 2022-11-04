@@ -27,13 +27,15 @@ public class Main {
         System.out.println("Задание 4.");
         int deliveryDistance = 95;
         if (deliveryDistance < 20) {
-            System.out.println("Потребуется дней: " + 1);
+
+
+                System.out.println("Потребуется дней: " + 1);
         } else if (deliveryDistance >= 20 && deliveryDistance < 60) {
-            System.out.println("Потребуется дней: " + 2);
+                System.out.println("Потребуется дней: " + 2);
         } else if (deliveryDistance >= 60 && deliveryDistance <= 100) {
-            System.out.println("Потребуется дней: " + 3);
+                System.out.println("Потребуется дней: " + 3);
         } else if (deliveryDistance > 100) {
-            System.out.println("Доставка будет занимать больше трёх дней.");
+                System.out.println("Доставка будет занимать больше трёх дней.");
         }
     }
 }
